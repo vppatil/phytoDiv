@@ -1,0 +1,51 @@
+R package group objectives statement.
+
+vision of complete success- 
+	1) clear criteria for evaluating phytoplankton data quality
+	2) automated/reproducible tools for
+		a. cleaning taxonomy names
+			-spelling errors
+			-taxonomic standards
+			-higher taxonomy
+			-parsing var./ssp.
+			
+		b. mapping species on to functional classifications
+		-Nico MFG
+		-CSR
+		-Clark/kruk trait matrices
+		
+	3) helper functions to
+		- update libraries
+		- apply functions across whole data frames
+		- gap fill functional classifications based on taxonomic relatedness
+		
+	4) published R package on CRAN and draft companion paper (by next workshop).
+	5) programmatic interface with algaebase and/or wrappers for taxize functions
+
+objectives (for workshop)
+	- create github account for r package code (vijay)
+	- instructions for r package creation and function checking (marc)
+	- finalize/document functional group mapping functions (clark/vijay)
+	- contact algaebase admin - cosigned by GEISHA PI's (vijay)
+	- revise algaebase R scraping function (vijay/marc)
+	- decision rules for evaluating taxize name resolution function (vijay/marc/clark)
+	- benchmark taxize and algaebase against list of trouble species (all, with help from nico)
+	- benchmark/summarize performance of functions on available lakes
+		% matches by lakes and over time, by taxonomic groups (all)
+	- create CSR classification function(all)
+	- apply functions to all available datasets
+
+	for after workshop
+	- look for resources for trait table filling (clark)
+	- incorporate needs from phyto group in terms of their workflow/hypotheses (all)
+	- list hypotheses for functional trait ecosystem function analyses (clark)
+	- brainstorm ideas for package paper (all)
+
+Barriers to success
+	- algaebase permission (algaebase PI's)
+	- criteria for evaluating data quality (phyto group-Nico/Rita/Orlane)
+	- logic/library for creating CSR classifications (Nico/Rita/Orlane)
+	- gaps in species - functional group libraries (clark/Vijay)
+	- list of test species- things to use for evaluating (Nico)
+	
+	
